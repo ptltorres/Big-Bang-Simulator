@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 	float time = 7;
+    float numScenes = 0;
 	// Use this for initialization
 	void Start () {
 		
@@ -20,6 +21,9 @@ public class LevelManager : MonoBehaviour {
 		}
 	}
 	public void loadNextLevel(){
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+        if (numScenes < 2) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            numScenes++;
+        }
 	}
 }

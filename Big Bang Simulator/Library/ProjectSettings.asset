@@ -444,11 +444,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Big Bang Simulator
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 00ab39ecff8bd301
   metroApplicationDescription: Big Bang Simulator
   wsaImages: {}
   metroTileShortName: 
