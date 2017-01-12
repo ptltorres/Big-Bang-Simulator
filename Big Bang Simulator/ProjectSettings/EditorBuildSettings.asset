@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Initial_State.unity
+  - enabled: 1
+    path: Assets/Phase2.unity
+  - enabled: 1
+    path: Assets/Phase3.unity
