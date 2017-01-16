@@ -138,12 +138,17 @@ Prefab:
     - target: {fileID: 198387936249191310, guid: 3f21b2ecdda404ad19d9a9565db80145,
         type: 2}
       propertyPath: randomSeed
-      value: -268676331
+      value: -510291356
       objectReference: {fileID: 0}
     - target: {fileID: 111731370437831204, guid: 3f21b2ecdda404ad19d9a9565db80145,
         type: 2}
       propertyPath: m_PlayAutomatically
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198387936249191310, guid: 3f21b2ecdda404ad19d9a9565db80145,
+        type: 2}
+      propertyPath: lengthInSec
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f21b2ecdda404ad19d9a9565db80145, type: 2}

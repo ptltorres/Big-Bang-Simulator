@@ -6,6 +6,11 @@ public class StartBigBang : MonoBehaviour {
 
 	public ParticleSystem BigBangInitial;
 	// Use this for initialization
+
+	void Awake() {
+		DontDestroyOnLoad(gameObject);
+	}
+
 	void Start () {
 		
 	}
@@ -14,13 +19,14 @@ public class StartBigBang : MonoBehaviour {
 	void Update () {
 		
 	}
-	public void toggleOnOff(){
+	/*public void toggleOnOff(){
 		//BigBangInitial.gameObject.SetActive(BigBangInitial.gameObject.activeSelf);
 		if (BigBangInitial.isPlaying) {
 			BigBangInitial.Stop ();
 		} else {
 			BigBangInitial.Play ();
 		}
+		GameObject.DontDestroyOnLoad (gameObject);
 	}
-
+*/
 }
