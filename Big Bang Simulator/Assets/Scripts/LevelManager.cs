@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
-	float time = 7;
+	float time = 20;
     float numScenes = 0;
 	// Use this for initialization
 	void Start () {

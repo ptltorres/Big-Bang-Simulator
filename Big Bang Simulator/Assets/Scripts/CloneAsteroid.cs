@@ -6,7 +6,7 @@ public class CloneAsteroid : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 100; i++)
         {
             var randomRotation = Quaternion.Euler(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
             Instantiate(Resources.Load("Asteroid"), new Vector3(Random.Range(-40, 40), Random.Range(-40, 40), Random.Range(-40, 40)), randomRotation);

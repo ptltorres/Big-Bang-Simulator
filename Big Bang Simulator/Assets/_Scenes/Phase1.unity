@@ -612,7 +612,34 @@ Prefab:
     - target: {fileID: 114535755171424488, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
         type: 2}
       propertyPath: m_Text
-      value: 'Matter begins to amass and form into rogue bodies '
+      value: '14.7 billion years ago...
+
+        the universe as we know it was composed enirely of this single point of matter...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114535755171424488, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224040458520608250, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224040458520608250, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 182.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224040458520608250, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 22.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224040458520608250, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 38.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c60321a7a7fd34d4abfbcf1ee8eebbfb, type: 2}
