@@ -84,7 +84,7 @@ Animator:
   m_GameObject: {fileID: 1574574844131964}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 34350105f9cd846438524b4bc0e6ea3e, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 1
   m_ApplyRootMotion: 0
@@ -103,7 +103,7 @@ Animation:
   m_Animation: {fileID: 0}
   m_Animations: []
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!198 &198387936249191310
@@ -113,7 +113,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1574574844131964}
   serializedVersion: 5
-  lengthInSec: 5
+  lengthInSec: 10
   speed: 1
   looping: 0
   prewarm: 0
@@ -161,12 +161,12 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -486373331
+  randomSeed: 173177541
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
-      scalar: 5
+      scalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -571,7 +571,7 @@ ParticleSystem:
         m_RotationOrder: 4
       minMaxState: 0
     randomizeRotationDirection: 0
-    maxNumParticles: 300000
+    maxNumParticles: 3000000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -640,7 +640,7 @@ ParticleSystem:
     enabled: 1
     serializedVersion: 3
     rateOverTime:
-      scalar: 4000
+      scalar: 10000
       maxCurve:
         serializedVersion: 2
         m_Curve:
