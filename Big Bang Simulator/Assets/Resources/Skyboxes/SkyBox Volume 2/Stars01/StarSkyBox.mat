@@ -60,7 +60,7 @@ Material:
     m_Floats:
     - first:
         name: _Exposure
-      second: 0
+      second: 6.13
     - first:
         name: _Rotation
       second: 0

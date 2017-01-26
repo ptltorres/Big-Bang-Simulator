@@ -19,3 +19,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/Phase2.unity
   - enabled: 1
     path: Assets/_Scenes/Phase3.unity
+  - enabled: 1
+    path: Assets/_Scenes/Phase4.unity
+  - enabled: 1
+    path: Assets/_Scenes/Phase5.unity
