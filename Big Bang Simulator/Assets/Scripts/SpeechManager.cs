@@ -10,21 +10,16 @@ public class SpeechManager : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        keywords.Add("Hello", () => {
-            // this.BroadcastMessage("OnReset");
+        keywords.Add("Next level", () => {
             // get a LevelManager Object and calls its loadNextLevel() method
-            
             FindObjectOfType<LevelManager>().loadNextLevel();
         });
 
-        keywords.Add("Hi", () => {
+        keywords.Add("Start big bang", () => {
             var focusObject = GazeGestureManager.Instance.FocusedObject;
             if (focusObject != null) {
                 // Call the Explode method on just the focused object.
-                focusObject.SendMessageUpwards("OnSelect");
-                //focusObject.GetComponent<Exploder>().OnSelect();
-                Debug.Log("Suppose to explode");
-                
+                focusObject.SendMessageUpwards("OnSelect"); 
             }
         });
 
