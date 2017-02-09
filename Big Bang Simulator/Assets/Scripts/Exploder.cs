@@ -10,7 +10,7 @@ public class Exploder : MonoBehaviour {
         if (!exploded) {
             Destroy(gameObject);
             exploded = true;
-            Instantiate(bigBang, new Vector3(0f,0.5f,100f), Quaternion.identity);
+            Instantiate(bigBang, new Vector3(transform.position.x,transform.position.y,transform.position.z), Quaternion.identity);
         }
     }
 }

@@ -18,7 +18,7 @@ public class SpeechManager : MonoBehaviour {
         keywords.Add("Start big bang", () => {
             var focusObject = GazeGestureManager.Instance.FocusedObject;
             if (focusObject != null) {
-                // Call the Explode method on just the focused object.
+                // Call the OnSelect method on just the focused object.
                 focusObject.SendMessageUpwards("OnSelect"); 
             }
         });
